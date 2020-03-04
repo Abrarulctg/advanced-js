@@ -23,5 +23,14 @@ console.log (Name.AA);  //this is Undefined.(kono ekta kicu ami print koraite ca
 const name = undefined;
 console.log(name); //undefined define kore undefined kora jai..
 
+
 let ages=[11,22,33];
-console.log(ages[11]);
+console.log(ages[1]);
+
+
+
+
+function doSomething(x, y){
+    console.log(y);
+}
+    doSomething(32);
