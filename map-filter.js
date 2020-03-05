@@ -21,6 +21,11 @@ const numbers = [5,6,9,2,8];
 // cons square = element => element * element;
 
 
+// const result = numbers.map (x=> x * x);
+// console.log (result);
 
-const result = numbers.map (x=> x*x);
-console.log (result);
+
+const bigger = numbers.filter(x => x < 5);
+
+const findNum = numbers.find(x => x > 6);
+console.log (findNum);
